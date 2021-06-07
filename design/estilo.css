@@ -1,0 +1,57 @@
+/*estilo do home*/
+div{
+	font-family: Inter;
+	src:('https://fonts.google.com/specimen/Inter');
+	font-weight: 400;
+	background-color: hsl(233, 47%, 7%);
+
+
+}
+#container{
+	
+	padding: 40px;
+	background-color: hsl(244, 38%, 16%)
+	color: hsl(0, 0%, 100%);
+	justify-content: flex-start;
+}
+
+/*attribution*/
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {background-color: #FFFF}
+
+/*all*/
+div{
+	
+}
+/*h1*/
+div h1{
+
+}
+div h1 span{
+	color: hsl(277, 64%, 61%);
+}
+/*lista*/
+li{
+	display: flex;
+	flex-direction: row;
+	justify-content: ;
+	color: hsla(0, 0%, 100%, 0.75);
+}
+
+li span{
+	font-weight: bold;
+	color: hsl(0, 0%, 100%);
+	font-size: 20px;
+}
+
+p{
+	color: hsla(0, 0%, 100%, 0.75);
+
+}
+.imagem{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	color: hsl(277, 64%, 61%);
+}
