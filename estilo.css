@@ -7,69 +7,67 @@ body{
 	font-weight: 400;
 	background-color: hsl(233, 47%, 7%);
 	list-style: none;
+	color: hsl(0, 0%, 100%);
 	display: flex;
-	flex-direction: row;
 }
+	
 .container{
-	width: 700px;
-	height: 400px;
-	background-color: hsl(244, 38%, 16%);
-	margin: 50px;
-	padding: 50px;
+	margin: 200px;
+	padding: 90px;
 	border-radius: 10px;
 	text-align: left;
-	
+	font-size: 20px;
+	width: 400px;
+	height: 300px;
+	background-color: hsl(244, 38%, 16%);
 }
 
-/*attribution*/
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-
-/*all*/
-div{
-	color: hsl(0, 0%, 100%);
-	justify-content: flex-start;
-}
 /*h1*/
-div h1{
 
-}
 div h1 span{
 	color: hsl(277, 64%, 61%);
 }
+
 /*lista*/
+
 ul {
 	list-style: none;
-	display: inline;
+	padding: 50px;
 	color: hsla(0, 0%, 100%, 0.75);
-	flex-flow: row wrap;
-	justify-content: center;
-
-	text-align: center;
+	display: flex;
+	flex-direction: row;	
+	justify-content: space-between;
+	text-align: left;
 }
 
 li span{
 	font-weight: bold;
 	color: hsl(0, 0%, 100%);
-	font-size: 20px;
-}
-li br{
-
+	font-size: 25px;
 }
 
 p{
 	color: hsla(0, 0%, 100%, 0.75);
 
 }
+
+/*imagem*/
+
 .imagem{
-	background-color: hsl(277, 64%, 61%);
-	position: absolute;
-	flex-wrap: nowrap;
+	display: inline;
+
 	width: 700px;
 	height: 400px;
 	margin: 50px;
 	border-radius: 10px;
-	text-align: center;
-	
-	
 }
+
+/*attribution*/
+
+.attribution { 
+	font-size: 11px;
+	text-align: center;
+	display: inline;
+	position: static; 
+}
+.attribution a { color: hsl(228, 45%, 44%); }
