@@ -1,4 +1,3 @@
-/*estilo do home*/
 body{
 	margin: 0px;
 	padding: 0px;	
@@ -6,11 +5,8 @@ body{
 	font-family: 'Inter';
 	background-color: hsl(233, 47%, 7%);
 	color: hsl(0, 0%, 100%);
-	
-
 }
 
-/*containers*/
 .container{
 	display: flex;
 	flex-direction: row;
@@ -30,7 +26,6 @@ body{
 	min-height: 310px;
 }
 
-/*h1*/
 .texto{
 	display: flex;
 	flex-direction: column;
@@ -40,8 +35,6 @@ body{
 div h1 span{
 	color: hsl(277, 64%, 61%);
 }
-
-/*lista*/
 
 .lista{
 	list-style: none;
@@ -58,7 +51,6 @@ div h1 span{
 	font-weight: bold;
 	color: hsl(0, 0%, 100%);
 	font-size: 25px;
-
 }
 
 p{
@@ -66,7 +58,6 @@ p{
 
 }
 
-/*imagem*/
 div img{
 	width: 550px;
 	height:480px;
@@ -87,8 +78,6 @@ div img{
 	border-top-right-radius:10px;
 	border-bottom-right-radius:10px;
 }
-
-/*attribution*/
 
 .attribution { 
 	font-size: 11px;
